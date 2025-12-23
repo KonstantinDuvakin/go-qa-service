@@ -1,0 +1,51 @@
+# =========================
+# Go
+# =========================
+
+# Compiled binary
+/app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Go workspace
+go.work
+go.work.sum
+
+# =========================
+# IDE / OS
+# =========================
+
+# IntelliJ / GoLand
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# =========================
+# Environment
+# =========================
+
+.env
+
+# =========================
+# Docker
+# =========================
+
+# Docker local volumes (just in case)
+docker-data/
+.pgdata/
+
+# =========================
+# Logs
+# =========================
+
+*.log
